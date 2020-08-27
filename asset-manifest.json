@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WinnetkaTodos/static/css/main.a0219023.chunk.css",
+    "main.js": "/WinnetkaTodos/static/js/main.76d2cf50.chunk.js",
+    "main.js.map": "/WinnetkaTodos/static/js/main.76d2cf50.chunk.js.map",
+    "runtime-main.js": "/WinnetkaTodos/static/js/runtime-main.76b676a3.js",
+    "runtime-main.js.map": "/WinnetkaTodos/static/js/runtime-main.76b676a3.js.map",
+    "static/js/2.33009dad.chunk.js": "/WinnetkaTodos/static/js/2.33009dad.chunk.js",
+    "static/js/2.33009dad.chunk.js.map": "/WinnetkaTodos/static/js/2.33009dad.chunk.js.map",
+    "index.html": "/WinnetkaTodos/index.html",
+    "precache-manifest.8b970d36f560b24bc128646bc14b2ba4.js": "/WinnetkaTodos/precache-manifest.8b970d36f560b24bc128646bc14b2ba4.js",
+    "service-worker.js": "/WinnetkaTodos/service-worker.js",
+    "static/css/main.a0219023.chunk.css.map": "/WinnetkaTodos/static/css/main.a0219023.chunk.css.map",
+    "static/js/2.33009dad.chunk.js.LICENSE.txt": "/WinnetkaTodos/static/js/2.33009dad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76b676a3.js",
+    "static/js/2.33009dad.chunk.js",
+    "static/css/main.a0219023.chunk.css",
+    "static/js/main.76d2cf50.chunk.js"
+  ]
+}
