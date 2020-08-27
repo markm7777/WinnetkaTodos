@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: teal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* MAIN LAYOUT *************************************************************************/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#mainDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh; 
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin: 2px;
+  /* border: 2px solid green; */
+}
+
+#mainContent {
+  display: flex;
+  flex: 6;
+  margin: 2px;
+  overflow: hidden;
+}
+
+#footer {
+  display: flex;
+  flex: 1;
+  margin: 0px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 10px;
+  padding: 0px;
+}
+
+/* CONTENT *******************************************************************************/
+
+#titleDiv {
+  display: flex;  
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-family: 'seagull';
+  font-size: 32pt;
   color: white;
+  text-shadow: 3px 3px #333333;
 }
 
-.App-link {
-  color: #61dafb;
+#addDiv {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#addInput {
+  height: 30px;
+  width: 500px;
+  margin: 10px;
+}
+
+#listDiv {
+  display: flex;
+  flex-direction: row;
+  flex: 1;  
+}
+
+#todoList {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: darkgrey;
+  border: 2px solid darkslateblue;
+  margin: 5px;
+}
+
+#doneList {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: darkgrey;
+  border: 2px solid darkslateblue;
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  overflow-y: auto;
+}
+
+#liDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 2px 0px 2px 0px;
+  background-color: slateblue;
+  height: 30px;
+}
+
+#liDivTask {
+  display: flex;
+  flex: 1;
+  align-self: flex-start;
+  margin-left: 10px;  
+  height: 30px;
+  line-height: 30px;
+}
+
+#liDivButtons {
+  display: flex;
+  align-self: flex-end;  
+  margin-right: 0px;
+  padding: 0;
+  height: 30px;
+}
+
+#liDivOrderButtons {
+  display: flex;
+  align-self: flex-start;  
+  margin-right: 0px;
+  padding: 0;
+  height: 30px;
+}
+
+#footerButtons {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+#addButton {
+  height: 35px;
+  width: 75px;
+  outline: none;
+  color:black;
+  background-color: lightgray;
+}
+
+#doneButton {
+  border-radius: 0;
+  margin-right:  2px;
+  color: black;
+  padding: 0;
+  width: 50px;
+  outline: none;
+}
+
+#deleteButton {
+  border-radius: 0;
+  margin-right:  0px;
+  color: black;
+  width: 50px;
+  outline: none;
+  margin-right: 3px;
+}
+
+#upButton {
+  border-radius: 0;
+  margin-right:  0px;
+  color: black;
+  width: 20px;
+  outline: none;
+  padding: 0px;
+  color: red;
+}
+
+#downButton {
+  border-radius: 0;
+  margin-right:  0px;
+  color: black;
+  width: 20px;
+  outline: none;
+  padding: 0px;
+  color: green
+}
+
+.taskCount {
+  margin: 0px 0px 5px 10px;
+}
+
+.clearButton {
+  height: 30px;
+  color: black;
+  background-color: lightgrey;
+  outline: none;
+}
+
+#todoListTitle {
+  background-color: darkslateblue;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+#copyright {
+  font-style: italic;
 }
